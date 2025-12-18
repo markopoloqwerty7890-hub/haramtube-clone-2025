@@ -1,11 +1,11 @@
 export default function VideoCard() {
   return (
-    <div className="w-full cursor-pointer">
-      {/* PREVIEW */}
-      <div className="relative aspect-video rounded-xl overflow-hidden group bg-black">
-        {/* IMAGE */}
+    <div className="w-full cursor-pointer rounded-xl border-4 shadow-xl/30 hover:not-focus:bg-indigo-700 ">
+      {}
+      <div className="relative aspect-video rounded-b-lg overflow-hidden group bg-black">
+        {}
         <img
-          src="/src/shared/ui/picture/Без названия (1).jpg"
+          src="/src/shared/ui/picture/hqdefault.avif"
           alt="preview"
           className="
             w-full h-full object-cover
@@ -14,7 +14,7 @@ export default function VideoCard() {
           "
         />
 
-        {/* FAKE VIDEO ANIMATION */}
+        {}
         <div
           className="
             absolute inset-0
@@ -24,7 +24,7 @@ export default function VideoCard() {
           "
         />
 
-        {/* DURATION */}
+        {}
         <span className="
           absolute bottom-2 right-2
           bg-black/80 text-white text-xs
@@ -34,22 +34,25 @@ export default function VideoCard() {
         </span>
       </div>
 
-      {/* INFO */}
+      {}
       <div className="flex gap-3 mt-3">
-        {/* AVATAR */}
-        <div className="w-9 h-9 rounded-full bg-neutral-700 shrink-0" />
-
-        {/* TEXT */}
-        <div className="flex flex-col gap-1">
+        {}
+        <div/>
+        <img src="/src/shared/ui/picture/unnamed.jpg" alt="SlivkiShow" className="shrink-0 w-9 h-9 rounded-full" />
+        {}
+        <div className="flex flex-col text-white gap-1">
           <h3 className="
             text-white text-sm font-medium
             line-clamp-2
           ">
-            Название видео как на YouTube, но это твой проект
+            
+ВОТ ЧТО МЫ КУПИЛИ НА ALIEXPRESS
+
+
           </h3>
 
           <p className="text-neutral-400 text-xs">
-            Название канала
+            SlivkiShow
           </p>
 
           <p className="text-neutral-400 text-xs">

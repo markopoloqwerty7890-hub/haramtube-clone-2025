@@ -23,6 +23,33 @@ const Header = () => {
   md:grid-cols-3
   lg:grid-cols-4
   gap-x-4 gap-y-8
+  mt-6 ml-4 mr-4
+">
+  <VideoCard />
+  <VideoCard />
+  <VideoCard />
+  <VideoCard />
+</div>
+           <div className="
+  grid grid-cols-1
+  sm:grid-cols-2
+  md:grid-cols-3
+  lg:grid-cols-4
+  gap-x-4 gap-y-8
+  mt-6 ml-4 mr-4
+">
+  <VideoCard />
+  <VideoCard />
+  <VideoCard />
+  <VideoCard />
+</div>
+           <div className="
+  grid grid-cols-1
+  sm:grid-cols-2
+  md:grid-cols-3
+  lg:grid-cols-4
+  gap-x-4 gap-y-8
+  mt-6 ml-4 mr-4
 ">
   <VideoCard />
   <VideoCard />
