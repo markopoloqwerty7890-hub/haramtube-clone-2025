@@ -1,0 +1,178 @@
+/* ===== ОБЩИЕ НАСТРОЙКИ ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== СТРАНИЦА ===== */
+.video-page {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+
+/* ===== ЛЕВАЯ ЧАСТЬ ===== */
+.video-main {
+  flex: 1;
+  max-width: 900px;
+}
+
+/* ===== ВИДЕО ===== */
+.video-player {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-player iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ===== ЗАГОЛОВОК ===== */
+.video-title {
+  font-size: 20px;
+  margin: 16px 0 8px;
+}
+
+/* ===== ACTIONS ===== */
+.video-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.video-actions button {
+  background: #272727;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.video-actions button:hover {
+  background: #3d3d3d;
+}
+
+/* ===== КАНАЛ ===== */
+.channel-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.channel-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.channel-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.channel-info p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.channel-info button {
+  margin-left: auto;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.channel-info button:hover {
+  opacity: 0.85;
+}
+
+/* ===== КОММЕНТАРИИ ===== */
+.comments h3 {
+  margin-bottom: 12px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.comment-form input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  color: white;
+  padding: 8px;
+  outline: none;
+}
+
+.comment-form button {
+  background: #3ea6ff;
+  border: none;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.comment {
+  background: #181818;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+/* ===== ПРАВАЯ ЧАСТЬ ===== */
+.recommended {
+  width: 360px;
+}
+
+.recommended h4 {
+  margin-bottom: 12px;
+}
+
+/* ===== РЕКОМЕНДАЦИИ ===== */
+.recommended-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.recommended-item img {
+  width: 168px;
+  height: 94px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recommended-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.recommended-item span {
+  font-size: 12px;
+  color: #aaa;
+}
