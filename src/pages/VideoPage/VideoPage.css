@@ -1,4 +1,4 @@
-/* ===== ОБЩИЕ НАСТРОЙКИ ===== */
+
 * {
   box-sizing: border-box;
 }
@@ -10,20 +10,20 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* ===== СТРАНИЦА ===== */
+
 .video-page {
   display: flex;
   gap: 24px;
   padding: 24px;
 }
 
-/* ===== ЛЕВАЯ ЧАСТЬ ===== */
+
 .video-main {
   flex: 1;
   max-width: 900px;
 }
 
-/* ===== ВИДЕО ===== */
+
 .video-player {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -38,13 +38,13 @@ body {
   border: none;
 }
 
-/* ===== ЗАГОЛОВОК ===== */
+
 .video-title {
   font-size: 20px;
   margin: 16px 0 8px;
 }
 
-/* ===== ACTIONS ===== */
+
 .video-actions {
   display: flex;
   gap: 12px;
@@ -65,7 +65,7 @@ body {
   background: #3d3d3d;
 }
 
-/* ===== КАНАЛ ===== */
+
 .channel-info {
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ body {
   opacity: 0.85;
 }
 
-/* ===== КОММЕНТАРИИ ===== */
+
 .comments h3 {
   margin-bottom: 12px;
 }
@@ -143,7 +143,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* ===== ПРАВАЯ ЧАСТЬ ===== */
+
 .recommended {
   width: 360px;
 }
@@ -152,7 +152,7 @@ body {
   margin-bottom: 12px;
 }
 
-/* ===== РЕКОМЕНДАЦИИ ===== */
+
 .recommended-item {
   display: flex;
   gap: 10px;
