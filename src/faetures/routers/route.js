@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router";
-import MainPage from "../../pages/MainPage/MainPage";
+import MainPage from "../../pages/mainpage/MainPage";
 import WatchPage from "../../pages/watchpage/WatchPage";
 
 
